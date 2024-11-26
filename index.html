@@ -94,7 +94,7 @@ text-align: justify
   
 <h2 id="section3">考前必看：</h2>
   
-  <h3 id="section3-1"></h3>
+  <h3 id="section3-1">数学部分：</h3>
 
     <p> <underline><a href="数分B2期中.pdf">数学分析B2 期中知识点速查</a></underline> （2024年春，于合肥）
 
@@ -105,7 +105,7 @@ text-align: justify
 
   <p><i>概率论与数理统计计划更新...</i></p>
 
-  <h3 id="section3-2"></h3>
+  <h3 id="section3-2">物理部分：</h3>
   
     <p> <underline><a href="力学期中大抄.pdf">力学 半开卷考试资料</a></underline> （2023年秋，于合肥） <i>俗称“大抄”，也可当作知识点速查手册</i>
 
@@ -154,7 +154,7 @@ text-align: justify
       <script>
         // 动态生成目录
         const toc = document.querySelector("#toc ul");
-        const headers = document.querySelectorAll("h2, h3");
+        const headers = document.querySelectorAll("h2");
         headers.forEach(header => {
             const li = document.createElement("li");
             li.innerHTML = `<a href="#${header.id}">${header.textContent}</a>`;
